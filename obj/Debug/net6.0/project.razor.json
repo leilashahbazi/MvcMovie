@@ -16333,6 +16333,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/leila/MvcMovie/Views/FormStep/Index.cshtml",
+      "TargetPath": "Views\\FormStep\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/leila/MvcMovie/Views/Shared/AdminLTE/_StylePartial.cshtml",
       "TargetPath": "Views\\Shared\\AdminLTE\\_StylePartial.cshtml",
       "FileKind": "mvc"
