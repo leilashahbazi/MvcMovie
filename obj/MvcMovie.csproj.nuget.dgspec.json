@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/leila/MvcMovie/MvcMovie.csproj": {}
+    "G:\\weblog\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "/home/leila/MvcMovie/MvcMovie.csproj": {
+    "G:\\weblog\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leila/MvcMovie/MvcMovie.csproj",
+        "projectUniqueName": "G:\\weblog\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "/home/leila/MvcMovie/MvcMovie.csproj",
-        "packagesPath": "/home/leila/.nuget/packages/",
-        "outputPath": "/home/leila/MvcMovie/obj/",
+        "projectPath": "G:\\weblog\\MvcMovie\\MvcMovie.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "G:\\weblog\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/leila/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,11 +40,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.5, )"
             },
@@ -75,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
