@@ -1,4 +1,5 @@
 using MvcMovie.Models;
+using MvcMovie.Services;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
       options.UseSqlServer("Data Source=DESKTOP-F6UHUMP;Initial Catalog=weblog;Integrated Security=True"));
   
+
+builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<NewsService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

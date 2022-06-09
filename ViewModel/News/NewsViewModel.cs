@@ -1,10 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 namespace MvcMovie.ViewModel
 {
     public class NewsViewModel
     {
-        public int id {get;set;}
+        public int Id {get;set;}
         public string title {get;set;}
-        public string descrption{get;set;}
-        public DateTime hisroty {get;set;}
+        public string description{get;set;}
+        public DateTime history {get;set;}
     }
 }

@@ -1,8 +1,8 @@
 namespace MvcMovie.Controllers
 {
-   public class Aritcle
+   public class AritcleC
     {
-        
+
     }
     
 }
